@@ -282,11 +282,11 @@ jQuery(function ($) { "use strict";
 /*	On scroll fade/bounce fffect
 /* ========================================================================= */
 
-	wow = new WOW({
-		animateClass: 'animated',
-		offset: 120
-	});
-	wow.init();
+// 	wow = new WOW({
+// 		animateClass: 'animated',
+// 		offset: 120
+// 	});
+// 	wow.init();
 	
 
 /* ========================================================================= */
