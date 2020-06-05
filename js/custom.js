@@ -100,7 +100,7 @@ jQuery(function ($) { "use strict";
 	/*	Fix Slider Height
 	/* ========================================================================= */	
 
-	var slideHeight = $(window).height();
+	var slideHeight = $(window).height()/3;
 	
 	$('#slitSlider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
 
