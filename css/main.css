@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
     background-color: transparent;
-    color: #fff;
+    color: #000;
     padding: 10px 30px;
 	border-radius: 0;
     margin-top: 15px;
@@ -111,9 +111,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-transparent:hover {
-    background-color: #6cb670;
+    background-color: #F16256;
 	border: 1px solid transparent;
-    color: #fff;
+    color: #000;
 }
 
 .form-control {
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-filter ul li a {
-	color: #ddd;
+	color: rgb(0, 0, 0);
 	display: inline-block;
 	font-size: 14px;
 	margin: 0 10px;
@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #63B670;
+	background: #F16256;
 	content: '';
 	
 	-webkit-transition: top 0.3s;
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 2px;
 	height: 2px;
-	background: #63B670;
+	background: #F16256;
 	content: '';
 	
 	-webkit-transition: height 0.3s;
@@ -1140,7 +1140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon > ul > li > a {
-    background-color: #26292e;
+    background-color: #dfdfdf;
     display: block;
     height: 70px;
     width: 70px;
@@ -1158,13 +1158,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon > ul > li > a > i {
-    color: #55606a;
+    color: #F16256;
     display: inline-block;
     font-size: 32px;
     line-height: 70px;
     margin: 0;
 
-    opacity: 0.3;
+    opacity: 0.8;
     filter: alpha(opacity=30);
 
 	-webkit-transform: rotateY(180deg);
@@ -1625,3 +1625,15 @@ blockquote {
   margin: 0;
 }
                             
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(124, 124, 124);
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(124, 124, 124);
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(124, 124, 124);
+}
